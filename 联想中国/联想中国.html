@@ -1,0 +1,558 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>联想中国</title>
+<style type="text/css">
+
+	body,ul,li,table,tbody,tr,td,input,hr { margin:0; padding:0; }
+	a { text-decoration:none; color:#000000;}
+	ul,li { list-style:none;}
+	/*header*/
+	.header { width:1350px; height:38px; overflow:hidden; background-color:#000000; color:#fff; font-size:13px; margin:0 auto}
+	.header div { width:1202px; margin:0 auto;  }
+	.header div .one { width:700px; float:left; cursor:pointer; padding-top:9px;}
+	.header div li { float:left; margin:0 5px 0 6px; }
+	.header div a { color:#fff;}
+	.header div .two { width:150px; float:right; padding-top:9px;}
+	.header div ul li a:hover { color:#FF3300;}/*字体鼠标经过会变色*/
+	/*header*/
+	/*head*/
+	.head { height:120px; width:1202px;  margin:0 auto; padding:30px 0 0 0; 
+		overflow:hidden;}
+	.head .head_1 { height:40px; width:1202px; }
+	.head .head_1 .head_11 { width:410px; height:40px;  float:left; padding-top:3px; cursor:pointer;}
+	.head .head_1 .head_12 { width:788px; height:40px; float:right;}
+	.head .head_1 .head_12  table tr td { width:786px; border:2px solid #e2231b;}
+	.head .head_2 { width:974px; height:36px; float:right; font-size:18px; margin-top:22px;}
+	.head .head_2 ul li { float:left; margin-right:30px; cursor:pointer; }
+	.head .head_2 ul li a:hover { color:#FF3300;}/*字体鼠标经过会变色*/
+	/*head*/
+	/*ad*/
+	.ad { width:1350px; margin:0 auto; position:relative;}
+	.ad div { width:1202px; height:368px; margin:0 auto;}
+	.ad .right { width:40px; height:158px; position:absolute; top:18px; right:24px; border:1px solid #e6e6e6;}
+	.ad .right li {  margin:4px 0 5px 0; padding-left:5px; }
+	.ad .right span {  margin:4px 0 5px 0; padding-left:1px; }
+	.ad div .ad_1 { float:left; height:366px; width:220px; background-color:#fff;  }
+	.ad div .ad_1 table tr .ad_top { height:42px; border:1px solid #e6e6e6; width:220px; 
+		background-color:#eeeeee; font-size:18px; padding-left:15px; cursor:pointer;}
+	.ad div .ad_1 table tr .ad_imp { width:200px; height:38px; font-size:16px; padding:6px 0 0 0; 
+		padding-left:15px; border-left:1px solid #e6e6e6; border-right:1px solid #e6e6e6;
+		cursor:pointer;}
+	.ad div .ad_1 table tr .nor { height:30px; font-size:13px; padding-left:15px;
+		border-left:1px solid #e6e6e6; border-right:1px solid #e6e6e6; cursor:pointer;}
+	.ad div .ad_1 table {  padding:0; margin:0;}
+	.ad div .ad_1 table tr .nor a { color:#5a5a5a;}
+	.ad div .ad_1 table tr .ad_imp a:hover { color:#FF3300;}/*字体鼠标经过会变色*/
+	.ad div .ad_1 table tr .nor a:hover { color:#FF3300;}/*字体鼠标经过会变色*/
+	.ad div .ad_2 { float:left; height:366px; width:972px; background-color:#fff; cursor:pointer;}
+	.ad .ad_emp { float:left; height:366px; width:10px; }	
+	/*ad*/
+	/*空白块1*/
+	.empty1 {height:66px; width:1202px; margin:0 auto;}
+	.empty1 .em_1 {height:30px; width:100px; float:left; padding-top:36px; font-size:20px;}
+	.empty1 .em_2 {height:30px; width:180px; float:right; padding-top:8px;}
+	/*空白块1*/
+	/*top*/
+	.top { width:1202px; height:562px; margin:0 auto; line-height:563px;}
+	.top .top_one { width:600px; height:280px; float:left; cursor:pointer;}
+	
+	.top .top_two { width:300px; height:280px; float:left; cursor:pointer;}
+	/*top*/
+	/*空白块2*/
+	.empty2 { width:1202px; height:12px; }
+	/*空白块2*/
+	/*center1*/
+	.center1 { width:1202px; height:151px; margin:0 auto;}
+	.center1 .cen1 { width:290px; height:150px; float:left;}
+	.center1 .cen2 { width:13px; height:150px; float:left;}
+	/*center1*/
+	/*empty3*/
+	.empty3 { width:1202px; height:76px; margin:0 auto;}
+	.empty3 div { width:100px; height:76px; font-size:20px; padding-top:38px;}
+	/*empty3*/
+	/*sale*/
+	.sale { width:1350px; margin:0 auto;}
+	.sale div { width:1202px; height:361px; margin:0 auto; overflow:hidden;}
+	.sale div .one { width:212px; height:360px; float:left; border-bottom:1px solid #e6e6e6; border-left:1px solid #e6e6e6; border-right:1px solid #e6e6e6; margin-right:10px; background-color:#f7f7f7;}
+	.sale div .one .part1 { width:210px; height:41px;}
+	.sale div .one .part1 ul li { width:104px; float:left; text-align:center; height:38px; line-height:38px; }
+	.sale div .one .part2 {  width:210px; height:152px; padding-top:22px;}
+	.sale div .one .part2 span {   font-weight:bold; margin:0 0 0 30px; }
+	.sale div .one .part2 table tbody tr { height:30px;}
+	.sale div .one .part2 table tbody tr th { padding-left:5px; height:32px;}
+	.sale div .one .part2 table tbody tr td { width:90px; padding-left:10px; }
+	.sale div .one .part2 table tbody tr td a { color:#6f7170;}
+	.sale div .one .part2 table tbody tr td a:hover { color:red;}
+	
+	
+	.sale div .one .part3 { width:210px; height:146px;  padding-top:10px;}
+	.sale div .one .part3 span {   font-weight:bold; margin:0 0 0 30px; }
+	.sale div .one .part3 table tbody tr { height:30px;}
+	.sale div .one .part3 table tbody tr th { padding-left:5px; height:32px;}
+	.sale div .one .part3 table tbody tr td { width:90px; padding-left:10px;}
+	.sale div .one .part3 table tbody tr td a { color:#6f7170;}
+	.sale div .one .part3 table tbody tr td a:hover { color:red;}
+	
+	.sale div .two { width:288px; height:361px; float:left; margin-right:8px;}
+	.sale div .three { width:450px; height:361px; float:left; margin-right:8px;} 
+	.sale div .four { width:215px; height:361px; float:left; }
+	/*sale*/
+	/*empty4*/
+	.empty4 { width:1202px; height:75px; margin:0 auto; }
+	.empty4 div { padding-left:14px; padding-top:20px; }
+	.empty4 span { font-size:24px;}
+	/*empty4*/
+	/*news*/
+	.news { width:1202px; height:510px; margin:0 auto; }
+	.news .news_1 { width:241px; height:510px; float:left;}
+	.news .news_1 div { width:165px; height:40px; background-color:#92c0fa; font-size:24px;
+ 		color:#fff; padding-left:76px;}
+	.news .news_2 { width:464px; height:510px; float:left;}
+	.news .news_2 .one { width:462px; height:250px; }
+	.news .news_2 .one .one_1 { width:273px; height:39px; background-color:#d9d042; 
+		font-size:24px; color:#fff; padding-left:190px;}
+	.news .news_2 .one .one_2 {  width:462px; height:211px; }
+	.news .news_2 .one .one_2 div { width:231px; height:210px; float:left; }
+	.news .news_2 .two { width:462px; height:11px; background-color:#fff;}
+	.news .news_2 .three { width:462px; height:250px;}
+	.news .news_2 .three { width:462px; height:250px; }
+	.news .news_2 .three .one_1 { width:273px; height:39px; background-color:#f1b04f; 
+	  font-size:24px; color:#fff; padding-left:190px;}
+	.news .news_2 .three .one_2 {  width:462px; height:211px; }
+	.news .news_2 .three .one_2 div { width:231px; height:210px; float:left; 
+		}
+	.news .news_3 { width:464px; height:510px; float:left;}
+	.news .news_3 .one { width:472px; height:250px; }
+	.news .news_3 .one .one_1 { width:284px; height:39px; background-color:#c490bf; 
+		font-size:24px; color:#fff; padding-left:188px;}
+	.news .news_3 .one .one_2 {  width:470px; height:261px; border-top:1px solid #e6e6e6;
+		 border-right:1px solid #e6e6e6;}
+	.news .news_3 .one .one_2 div { width:228px; height:210px; float:left; }
+	.news .news_3 .one .one_3 {  width:470px; height:210px; border-bottom:1px solid #e6e6e6;
+		 border-right:1px solid #e6e6e6;}
+	.news .news_3 .one .one_3 div { width:228px; height:210px; float:left; }
+	.news .news_e { width:12px; height:510px; float:left; background-color:#fff;}
+	/*news*/
+	/*empty5*/
+	.empty5 { width:1202px; height:42px; margin:0 auto; padding-top:40px;}
+	.empty5 span { font-size:24px;}
+	/*empty5*/
+	/*center2*/
+	.center2 { width:1202px; height:196px; margin:0 auto; }
+	.center2 .content { width:1202px; height:181px; overflow:hidden;}
+	.center2 .content .con1 { width:291px; height:184px; float:left;}
+	.center2 .content .em_1 { width:12px; height:184px; float:left;}
+	.center2 .content .con2 { width:850px; height:158px; background:#f0f0f0; float:left; padding:26px 21px 0 27px; box-shadow:5px 5px 3px #CCCCCC;}
+	.center2 .content .con2 .split{width:850px; height:20px; padding-top:10px; }
+	.center2 .content .con2 ul li a:hover { color:#FF3300;}
+	.center2 .emp { width:1202px; height:14px;}
+	.center2 .content .con3 .emp1 { width:13px; height:146px; float:left; background-color:#CCCCCC;}
+	/*center2*/
+	/*empty6*/
+	.empty6 { width:1202px; height:42px; margin:0 auto;}
+	/*empty6*/
+	/*bottom_p*/
+	.bottom_p { width:1350px; margin:0 auto; height:84px; margin:0 auto; background-color:#f6f6f6;}
+	.bottom_p div { width:1202px; height:84px; margin:0 auto; overflow:hidden;}
+	/*bottom_p*/
+	/*footer*/
+	.footer { width:1350px; margin:0 auto; height:142px; overflow:hidden;}
+	.footer div { width:1202px; height:142px; margin:0 auto; overflow:hidden; font-size:12px; }
+	.footer div .footer1 { width:200px; height:120px; float:left; padding-top:20px;}
+	.footer div .footer1 ul li { width:200px; height:22px; font-weight:5px; color:#555555;}
+	.footer div .footer1 ul li a:hover { color:#FF3300;}
+	/*footer*/
+	/*copyright*/
+	.copyright {width:1350px; margin:0 auto; height:96px; overflow:hidden; background-color:#f5f5f5;}
+	.copyright div { width:1098px; height:68px; margin:0 auto; overflow:hidden; padding-top:28px; padding-left:104px; font-size:13px;}
+	.copyright div ul li { float:left;}
+	.copyright div ul li a:hover { color:#FF3300;}
+	/*copyright*/
+	
+
+	
+</style>
+</head>
+
+<body>
+  <div class="header">
+  	<div>
+		<div class="one">
+			<ul>
+				<li><a href="#">个人及家用</a>&nbsp;&nbsp;|</li>
+				<li><a href="#">商用</a>&nbsp;&nbsp;|</li>
+				<li><a href="#">企业级</a>&nbsp;&nbsp;|</li>
+				<li><a href="#">服务&nbsp;&nbsp;</a>&nbsp;&nbsp;|</li>
+				<li><a href="#">聚享汇会员专享</a>&nbsp;&nbsp;|</li>
+				<li><a href="#">社交平台</a></li>
+				<li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;手机版</a></li>
+			</ul>
+		</div>
+		<div class="three"><img src="img/header.png" align="right">
+		</div>
+		<div class="two">
+			<ul>
+				<li><a href="#">登陆</a>&nbsp;&nbsp;|</li>
+				<li><a href="#">注册</a>&nbsp;&nbsp;|</li>
+				<li><a href="#">购物车</a></li>
+			</ul>
+		</div> 
+	</div>
+  </div><!--header-->
+  
+  <div class="head"><!--begin-->
+
+  	  <div class="head_1"><!--1-->
+		<div class="head_11"><img src="img/h1.png"></div>
+		<div class="head_12">
+		  <table>
+			<tr>
+				<td style="background-color:#e2231b">
+					<input name="search" type="text" placeholder="Miix 4" align="right"  style="height:34px; width:618px; border:none; padding:0 10px;">
+				<span style="margin-left:52px">
+					<a href="#" style="color:#fff">搜索</a>
+				</span>
+				</td>
+			</tr>
+		  </table>
+		</div>
+	 </div><!--1-->
+  	 <div class="head_2"><!--2-->
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">爆款</a></li>
+			<li><a href="#">以旧换新</a></li>
+			<li><a href="#">游戏专区</a></li>
+			<li><a href="#">中小企业</a></li>
+			<li><a href="#">小新专属L码通道</a></li>
+			<li><a href="#">Lenove&nbsp;PC专区</a></li>
+			<li><a href="#">联想合伙人</a></li>
+		</ul>
+	 </div><!--2-->
+	 
+  </div><!--head-->
+  
+  <div class="ad">
+    <div>
+	  <div class="ad_1">
+	     <table>
+			<tr>
+				<td class="ad_top"><a href="#">Lenovo电脑分类</a></td>
+			</tr>
+			<tr>
+				<td class="ad_imp"><a href="#">笔记本</a></td>
+			</tr>
+	 		<tr>
+				<td class="nor"><a href="#">常规笔记本</a></td>
+			</tr>
+	 		<tr>
+				<td class="nor"><a href="#">超轻薄笔记本</a></td>
+			</tr>
+			<tr>
+				<td class="nor"><a href="#">互联网爆款</a></td>
+			</tr>
+	 		<tr>
+				<td class="nor"><a href="#">游戏本</a></td>
+			</tr>
+	 		<tr>
+				<td class="nor" style="border-bottom:1px solid #e6e6e6">
+					<a href="#">变形笔记本</a>
+				</td>
+			</tr>
+		<!--center-->
+			<tr>
+				<td class="ad_imp"><a href="#">台式机</a></td>
+			</tr>
+	 		<tr>
+				<td class="nor"><a href="#">一体台式机</a></td>
+			</tr>
+	 		<tr>
+				<td class="nor" style="border-bottom:1px  solid #e6e6e6">
+					<a href="#">分体台式机</a>
+				</td>
+			</tr>
+		
+	    </table>
+	  </div>
+	  <div class="ad_emp"></div>
+  	  <div class="ad_2"><img src="img/ad1.png"></div>
+    </div>
+	<div class="right">
+		<ul>
+			<li style="border-bottom:1px solid #e6e6e6;">
+				<a href="#"><img src="img/icon/联想中国_03.png"></a></li>
+			<li style="border-bottom:1px solid #e6e6e6;">
+				<a href="#"><img src="img/icon/联想中国_06.png"></a></li>
+			<li style="border-bottom:1px solid #e6e6e6;">
+				<a href="#"><img src="img/icon/联想中国_08.png"></a></li>
+			<li><a href="#"><img src="img/icon/联想中国_10.png"></a></li>
+			<span><a href="#"><img src="img/icon/ad3.png"></a></span>
+		</ul>
+	</div><!--右边的固定块-->
+  </div><!--ad-->
+  
+  <div class="empty1">
+  	<div class="em_1"> 今日热门</div>
+	<div class="em_2"><img src="img/ad4.png"></div>
+  </div><!--空白块1-->
+  
+  <div class="top">
+  	<div>
+		<div >
+			<div class="top_one"><img src="img/top1.png"></div>
+			<div class="top_one"><img src="img/top2.png"></div>
+		</div>
+		<div >
+			<div class="top_two"><img src="img/top3.png"></div>
+			<div class="top_two"><img src="img/top4.png"></div>
+			<div class="top_two"><img src="img/top5.png"></div>
+			<div class="top_two"><img src="img/top6.png"></div>
+		</div>
+	</div>
+  </div><!--top-->
+  
+  <div class="empty2"></div><!--空白块2-->
+  
+  <div class="center1">
+    <div class="cen1"><img src="img/tt1.png"></div>
+	<div class="cen2"></div>
+    <div class="cen1"><img src="img/tt2.png"></div>
+	<div class="cen2"></div>
+    <div class="cen1"><img src="img/tt3.png"></div>
+	<div class="cen2"></div>
+    <div class="cen1"><img src="img/tt4.png"></div>
+  </div><!--center1-->
+  
+  <div class="empty3">
+   <div>帮你选</div>
+  </div><!--empty3-->
+  
+  <div class="sale">
+  	<div>
+  		<div class="one">
+			<div class="part1">
+				<ul>
+					<li style="border-top:2px solid #e2231a"><a href="#">笔记本</a></li>
+					<li style="border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6; border-top:1px solid #e6e6e6; background-color:#fff;"><a href="#">台式机</a></li>
+				</ul>
+			</div>
+			<div class="part2">
+				<table>
+					<tbody>
+						<tr>
+							<th colspan="2">选择属于您的标签</th>
+						</tr>
+						<tr>
+							<td><a href="#">校园学生</a></td>
+							<td><a href="#">时尚女生</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">家庭娱乐</a></td>
+							<td><a href="#">商务办公</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">高清游戏</a></td>
+							<td><a href="#">轻薄便携</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<hr style="width:188px; color:#e6e6e6; margin-left:10px;" >
+			<div class="part3">
+				<table>
+					<tbody>
+						<tr>
+							<th colspan="2">选择您的预算</th>
+						</tr>
+						<tr>
+							<td><a href="#">0-2999</a></td>
+							<td><a href="#">3000-3999</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">4000-4999</a></td>
+							<td><a href="#">5000-6999</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">7000-9999</a></td>
+							<td><a href="#">10000以上</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="two"><img src="img/content1_1.png"></div>	
+		<div class="three"><img src="img/content1_2.png"></div>	
+		<div class="four"><img src="img/content1_3.png"></div>
+	</div>
+  </div><!--sale-->
+  
+  <div class="empty4">
+  	<div><hr color="#e6e6e6" width="185px" align="left" size="1px"></div>
+	<span>官网专属</span>
+  </div><!--empty4-->
+  
+  <div class="news">
+  	<div class="news_1"><!--news_1-->
+		<div>火热促销</div>
+	</div> <!--news_1-->
+	<div class="news_e"></div>
+	
+  	<div class="news_2"><!--news_2-->
+		<div class="one">
+			<div class="one_1">专属延保<a href="#"><span style="font-size:14px; float:right; padding-top:8px; padding-right:8px;">更多></span></a></div>
+			<div class="one_2">
+				<div><img src="img/z1.png" width="231px" height="210px" ></div>
+				<div><img src="img/z2.png" width="231px" height="210px" ></div>
+			</div>
+		</div>
+		<div class="two"></div>
+		<div class="three">
+			<div class="one_1">以旧换新<a href="#"><span style="font-size:14px; float:right; padding-top:8px; padding-right:8px;">更多></span></a></div>
+			<div class="one_2">
+				<div><img src="img/z1.png" width="231px" height="210px" style="border-right:1px solid #e6e6e6" ></div>
+				<div><img src="img/z2.png" width="231px" height="210px" ></div>
+			</div>
+		</div>
+	</div><!--news_2-->
+	<div class="news_e"></div>
+  	<div class="news_3">
+		<div class="one">
+		    <div class="one_1">联想合伙人<a href="#"><span style="font-size:14px; float:right; padding-top:8px; padding-right:8px;">更多></span></a></div>
+			<div class="one_2">
+				<div><img src="img/z5.png" width="228px" height="260ox" ></div>
+				<div><img src="img/z6.png" width="228px" height="261px"></div>
+			</div>
+			<div class="one_3">
+				<div><img src="img/z7.png" width="470px" height="210px"></div>
+			</div>
+		</div>
+	</div>
+  </div><!--news-->
+  
+  <div class="empty5">
+  	<span>最新热帖</span>
+  </div><!--empty5-->
+  
+  <div class="center2">
+  	<div class="content">
+		<div class="con1"><img src="img/n1.png"></div>
+		<div class="em_1"></div>
+		<div class="con2">
+			<ul>
+				<li style="font-size:19px; margin-bottom:5px">最新热帖
+				<a href="#"><span style="font-size:14px; float:right;">更多></span></a>
+				</li>
+				<li style="border-bottom:1px dashed #9c9c9c;"></li>
+				<li class="split"><a href="#">[晒单.评测]超薄机身依然有强健的性能&nbsp;联想ideaPad&nbsp;700s的整机性能测试</a></li>
+				<li class="split"><a href="#">[产品经理分享]Yoga&nbsp;900&nbsp;设计细节揭露-体会技术宅们的匠心</a></li>
+				<li class="split"><a href="#">[晒单.评测]轻薄加颜值&nbsp;全球最薄的14寸笔记本联想ideapad&nbsp;700S外观详解</a></li>
+			</ul>
+		</div>
+	</div>
+  	<div class="emp"></div>
+  </div><!--center2-->
+  
+  <div class="center1">
+    <div class="cen1"><img src="img/n2.png"></div>
+	<div class="cen2"></div>
+    <div class="cen1"><img src="img/n3.png"></div>
+	<div class="cen2"></div>
+    <div class="cen1"><img src="img/n4.png"></div>
+	<div class="cen2"></div>
+    <div class="cen1"><img src="img/n5.png"></div>
+  </div><!--复制center1，只改变了图片-->
+  
+  <div class="empty6"></div><!--empty6-->
+  
+  <div class="bottom_p">
+  	<div><img src="img/f1.png"></div>
+  </div><!--bottom_p-->
+  
+  <div class="footer">
+  	<div>
+	 <div class="footer1">
+	 	<ul>
+	 		<li><strong>购物指南</strong></li>
+	 		<li><a href="#">服务商信息</a></li>
+	 		<li><a href="#">购物流程</a></li>
+	 		<li><a href="#">注册登录</a></li>
+	 	</ul>
+	 </div>
+	 <div class="footer1">
+	 	<ul>
+	 		<li><strong>配送方式</strong></li>
+	 		<li><a href="#">配送方式</a></li>
+			<li><a href="#">配送方式信息</a></li>
+	 		<li><a href="#">签收原则</a></li>
+	 		<li><a href="#">物流查询</a></li>
+	 	</ul>
+	 </div>
+	 <div class="footer1">
+	 	<ul>
+	 		<li><strong>支付方式</strong></li>
+	 		<li><a href="#">支付方式</a></li>
+	 		<li><a href="#">支付问题</a></li>
+	 		<li><a href="#">分期支付</a></li>
+	 	</ul>
+	 </div>
+	 <div class="footer1">
+	 	<ul>
+	 		<li><strong>订单信息</strong></li>
+	 		<li><a href="#">订单信息</a></li>
+	 		<li><a href="#">其他频道订单发票</a></li>
+	 	</ul>
+	 </div>
+	 <div class="footer1">
+	 	<ul>
+	 		<li><strong>售后服务</strong></li>
+	 		<li><a href="#">Lenovo频道商品售后</a></li>
+	 		<li><a href="#">无理由退换货说明</a></li>
+	 		<li><a href="#">24小时在线客服</a></li>
+	 	</ul>
+	 </div>
+	 <div class="footer1">
+	 	<ul>
+	 		<li><strong>购物指南</strong></li>
+	 		<li><a href="#">服务商信息</a></li>
+	 		<li><a href="#">购物流程</a></li>
+	 		<li><a href="#">注册登录</a></li>
+	 	</ul>
+	 </div>
+	</div>
+  </div><!--footer-->
+  
+  <div class="copyright">
+  	<div>
+		<ul>
+			<li><a href="#">关于联想</a>&nbsp;&nbsp;|&nbsp;</li>
+			<li><a href="#">联系我们</a> &nbsp;| &nbsp;</li>
+			<li><a href="#">工作机会</a> &nbsp;| &nbsp;</li>
+			<li><a href="#">新闻中心</a> &nbsp;| &nbsp;</li>
+			<li><a href="#">聚享汇专</a>享 &nbsp;| &nbsp;</li>
+			<li><a href="#">联想社</a>区 &nbsp;| &nbsp;</li>
+			<li><a href="#">NBD</a> &nbsp;| &nbsp;</li>
+			<li><a href="#">联想超融</a>合 &nbsp;| &nbsp;</li>
+			<li><a href="#">联想官网搜榜</a> &nbsp;| &nbsp; </li>
+			<li><a href="#">分类大全</a> &nbsp;| &nbsp; </li>
+			<li><a href="#">联想产品大全</a> &nbsp;| &nbsp;</li>
+			<li><a href="#">智慧医</a></li>
+		</ul><br>
+		<ul>
+			<li>版权所有：1998.2016联想集团 &nbsp;| &nbsp;</li>
+			<li><a href="#">法律公告</a> &nbsp;| &nbsp;</li>
+			<li><a href="#">隐私保护</a> &nbsp;| &nbsp;</li>
+			<li>京公网安备110108007970 &nbsp;| &nbsp;</li>
+			<li>营业执照：110000410127232 &nbsp;| &nbsp;</li>
+			<li><a href="#">销售网点</a> &nbsp;| &nbsp; </li>
+			<li><a href="#">服务站点</a></li>
+		</ul>
+	</div>
+  </div><!--copyright-->
+ 
+
+
+</body>
+</html>
