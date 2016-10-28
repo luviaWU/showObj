@@ -1,0 +1,229 @@
+/* CSS Document */
+
+.header{ width:1349px; height:108px; margin:0 auto; background:url(../images/img_cont/haibin.png) no-repeat center; border-bottom:4px solid #d1ad5f;}
+.header .left{ float:left; margin:25px 0 0 126px;}
+
+.header .right{ float:right;}
+.header .right .up{ width:560px; height:50px;}
+.header .right .up ul li{ float:left; margin-top:16px; font-size:10px;}
+.header .right .up ul li a{ margin:0 6px; color:#333333;}
+.header .right .up ul li a:hover{ text-decoration:underline;}
+.header .right .up ul li a img{ float:left; margin:3px 5px 0 5px;}
+.header .right .up ul li a span{ float:left;}
+.header .right .up ul li a span:hover{ text-decoration:underline;}
+.header .right .up ul .special{ width:90px; height:24px; background-color:#cda654; margin:13px 0 0 6px; line-height:24px; text-align:center; text-decoration:none;}
+
+.contry{ width:130px; height:20px; position:relative; }
+.allcontry{ display:none; width:130px; height:140px; border:3px solid #d2b47a; background-color:#ffffff;  position:absolute;z-index:999; top:20px; left:-30px;}
+.allcontry ul li{ width:120px; height:8px; margin-left:10px;}
+.allcontry ul li img{ float:left; margin-top:2px;}
+.allcontry ul li span{ float:left;}
+.contry:hover .allcontry{display:inline-block;}
+
+.header .right .down{ width:638px; height:40px;}
+.header .right .down .floatthat { margin-left:90px;}
+
+.on1{height:20px; width:30px;float:left; margin:28px 0 0 16px; }
+.on1 p{ text-align:center; height:34px; line-height:20px; cursor:pointer; position:relative;}
+.on1 p:hover{ color:#9D4F00;}
+.dd1{ display:none; height:405px; width:520px; background-color:#fff; }
+.dd1 .one{ width:492px; height:26px; margin:0 auto; border-bottom:1px solid #cccccc; font-weight:bold; margin-top:6px; line-height:26px; padding-left:4px;}
+.dd1 .one a{ color:#000;}
+.dd1 .one:hover{background-color:#ece2cd; }
+.dd1 .two{ width:500px; height:360px;}
+.dd1 .two .same{ float:left; width:200px; height:360px; margin-left:12px;}
+.dd1 .two .same ul li{ width:200px; height:25px; line-height:25px; padding-left:4px;}
+.dd1 .two .same ul .h1{ border-bottom:1px solid #cccccc; font-weight:bold; width:200px; height:26px; line-height:26px; margin-top:6px;}
+.dd1 .two .same ul li a{ color:#000;}	
+.dd1 .two .same ul li:hover{background-color:#ece2cd; }
+.dd1 .two .same ul .h1:hover{background-color:#ece2cd; }	
+.on1:hover .dd1{display:inline-block; position:absolute;z-index:999;}
+
+/*使display的内容不被遮住的方法：position:absolute;z-index:999;*/
+.on2{height:20px; width:50px;float:left; margin:28px 0 0 16px;  position:relative;}
+.on2 p{ text-align:center; height:34px; line-height:20px; cursor:pointer;}
+.on2 p:hover{ color:#9D4F00;}
+.dd2{ display:none; height:142px; width:520px; background-color:#fff; position:absolute;z-index:999; left:-38px; top:34px;}
+.dd2 .one{ width:492px; height:26px; margin:0 auto; border-bottom:1px solid #cccccc; font-weight:bold; margin-top:6px; line-height:26px; padding-left:4px;}
+.dd2 .one a{ color:#000;}
+.dd2 .one:hover{background-color:#ece2cd; }
+.dd2 .two{ width:500px; height:360px;}
+.dd2 .two .same{ float:left; width:200px; height:360px; margin-left:12px;}
+.dd2 .two .same ul li{ width:200px; height:25px; line-height:25px; padding-left:4px;}
+.dd2 .two .same ul .h1{ border-bottom:1px solid #cccccc; font-weight:bold; width:200px; height:26px; line-height:26px; margin-top:6px;}
+.dd2 .two .same ul li a{ color:#000;}	
+.dd2 .two .same ul li:hover{background-color:#ece2cd; }
+.dd2 .two .same ul .h1:hover{background-color:#ece2cd; }	
+.on2:hover .dd2{display:inline-block; }
+
+/*使display的内容不被遮住的方法：position:absolute;z-index:999;*/
+.on3{height:20px; width:64px;float:left; margin:28px 0 0 16px; position:relative;}
+.on3 p{ text-align:center; height:34px; line-height:20px; cursor:pointer; position:relative;}
+.on3 p:hover{ color:#9D4F00;}
+.dd3{ display:none; height:390px; width:520px; background-color:#fff; position:absolute;z-index:999; left:-104px; top:34px;}
+.dd3 .one{ width:492px; height:26px; margin:0 auto; border-bottom:1px solid #cccccc; font-weight:bold; margin-top:6px; line-height:26px; padding-left:4px;}
+.dd3 .one a{ color:#000;}
+.dd3 .one:hover{background-color:#ece2cd; }
+.dd3 .two{ width:500px; height:360px;}
+.dd3 .two .same{ float:left; width:200px; height:360px; margin-left:12px;}
+.dd3 .two .same ul li{ width:200px; height:25px; line-height:25px; padding-left:4px;}
+.dd3 .two .same ul .h1{ border-bottom:1px solid #cccccc; font-weight:bold; width:200px; height:26px; line-height:26px; margin-top:6px;}
+.dd3 .two .same ul li a{ color:#000;}	
+.dd3 .two .same ul li:hover{background-color:#ece2cd; }
+.dd3 .two .same ul .h1:hover{background-color:#ece2cd; }	
+.on3:hover .dd3{display:inline-block; position:absolute;z-index:999;}
+
+/*使display的内容不被遮住的方法：position:absolute;z-index:999;*/
+.on4{height:20px; width:50px;float:left; margin:28px 0 0 16px;  position:relative;}
+.on4 p{ text-align:center; height:34px; line-height:20px; cursor:pointer;}
+.on4 p:hover{ color:#9D4F00;}
+.dd4{ display:none; height:254px; width:520px; background-color:#fff; position:absolute;z-index:999; left:-460px; top:34px;}
+.dd4 .one{ width:492px; height:26px; margin:0 auto; border-bottom:1px solid #cccccc; font-weight:bold; margin-top:6px; line-height:26px; padding-left:4px; }
+.dd4 .one a{ color:#000;}
+.dd4 .one:hover{background-color:#ece2cd; }
+.dd4 .two{ width:500px; height:360px;}
+.dd4 .two .same{ float:left; width:200px; height:360px; margin-left:12px;}
+.dd4 .two .same ul li{ width:200px; height:25px; line-height:25px; padding-left:4px;}
+.dd4 .two .same ul .h1{ border-bottom:1px solid #cccccc; font-weight:bold; width:200px; height:26px; line-height:26px; margin-top:6px;}
+.dd4 .two .same ul li a{ color:#000;}	
+.dd4 .two .same ul li:hover{background-color:#ece2cd; }
+.dd4 .two .same ul .h1:hover{background-color:#ece2cd; }	
+.on4:hover .dd4{display:inline-block; }
+
+/*使display的内容不被遮住的方法：position:absolute;z-index:999;*/
+.on5{height:20px; width:30px;float:left; margin:28px 0 0 16px;  position:relative;}
+.on5 p{ text-align:center; height:34px; line-height:20px; cursor:pointer;}
+.on5 p:hover{ color:#9D4F00;}
+.dd5{ display:none; height:480px; width:520px; background-color:#fff; position:absolute;z-index:999; left:-480px; top:34px;}
+.dd5 .one{ width:492px; height:26px; margin:0 auto; border-bottom:1px solid #cccccc; font-weight:bold; margin-top:6px; line-height:26px; padding-left:4px;}
+.dd5 .one a{ color:#000;}
+.dd5 .one:hover{background-color:#ece2cd; }
+.dd5 .two{ width:500px; height:360px;}
+.dd5 .two .same{ float:left; width:200px; height:360px; margin-left:12px;}
+.dd5 .two .same ul li{ width:200px; height:25px; line-height:25px; padding-left:4px;}
+.dd5 .two .same ul .h1{ border-bottom:1px solid #cccccc; font-weight:bold; width:200px; height:26px; line-height:26px; margin-top:6px;}
+.dd5 .two .same ul li a{ color:#000;}	
+.dd5 .two .same ul li:hover{background-color:#ece2cd; }
+.dd5 .two .same ul .h1:hover{background-color:#ece2cd; }	
+.on5:hover .dd5{display:inline-block; }
+
+/*使display的内容不被遮住的方法：position:absolute;z-index:999;*/
+.on6{height:20px; width:40px;float:left; margin:28px 0 0 16px; position:relative; }
+.on6 p{ text-align:center; height:34px; line-height:20px; cursor:pointer;}
+.on6 p:hover{ color:#9D4F00;}
+.dd6{ display:none; height:405px; width:520px; background-color:#fff;  position:absolute;z-index:999; left:-460px; top:34px;}
+.dd6 .one{ width:492px; height:26px; margin:0 auto; border-bottom:1px solid #cccccc; font-weight:bold; margin-top:6px; line-height:26px; padding-left:4px;}
+.dd6 .one a{ color:#000; }
+.dd6 .one:hover{background-color:#ece2cd; }
+.dd6 .two{ width:500px; height:360px;}
+.dd6 .two .same{ float:left; width:200px; height:360px; margin-left:12px;}
+.dd6 .two .same ul li{ width:200px; height:25px; line-height:25px; padding-left:4px;}
+.dd6 .two .same ul .h1{ border-bottom:1px solid #cccccc; font-weight:bold; width:200px; height:26px; line-height:26px; margin-top:6px;}
+.dd6 .two .same ul li a{ color:#000; }	
+.dd6 .two .same ul li:hover{background-color:#ece2cd; }
+.dd6 .two .same ul .h1:hover{background-color:#ece2cd; }	
+.on6:hover .dd6{display:inline-block;}
+
+/*使display的内容不被遮住的方法：position:absolute;z-index:999;*/
+.on7{height:20px; width:50px;float:left; margin:28px 0 0 16px; position:relative; }
+.on7 p{ text-align:center; height:34px; line-height:20px; cursor:pointer;}
+.on7 p:hover{ color:#9D4F00;}
+.dd7{ display:none; height:405px; width:520px; background-color:#fff;  position:absolute;z-index:999; left:-460px; top:34px;}
+.dd7 .one{ width:492px; height:26px; margin:0 auto; border-bottom:1px solid #cccccc; font-weight:bold; margin-top:6px; line-height:26px; padding-left:4px;}
+.dd7 .one a{ color:#000;}
+.dd7 .one:hover{background-color:#ece2cd; }
+.dd7 .two{ width:500px; height:360px;}
+.dd7 .two .same{ float:left; width:200px; height:360px; margin-left:12px;}
+.dd7 .two .same ul li{ width:200px; height:25px; line-height:25px; padding-left:4px;}
+.dd7 .two .same ul .h1{ border-bottom:1px solid #cccccc; font-weight:bold; width:200px; height:26px; line-height:26px; margin-top:6px;}
+.dd7 .two .same ul li a{ color:#000; }	
+.dd7 .two .same ul li:hover{background-color:#ece2cd; }
+.dd7 .two .same ul .h1:hover{background-color:#ece2cd; }	
+.on7:hover .dd7{display:inline-block;}
+
+/*使display的内容不被遮住的方法：position:absolute;z-index:999;*/
+.on8{height:20px; width:40px;float:left; margin:28px 0 0 16px;  position:relative;}
+.on8 p{ text-align:center; height:34px; line-height:20px; cursor:pointer;}
+.on8 p:hover{ color:#9D4F00;}
+.dd8{ display:none; height:126px; width:520px; background-color:#fff; position:absolute;z-index:999; left:-480px; top:34px;}
+.dd8 .one{ width:492px; height:26px; margin:0 auto; border-bottom:1px solid #cccccc; font-weight:bold; margin-top:6px; line-height:26px; padding-left:4px;}
+.dd8 .one a{ color:#000;}
+.dd8 .one:hover{background-color:#ece2cd; }
+.dd8 .two{ width:500px; height:360px;}
+.dd8 .two .same{ float:left; width:492px; height:360px; margin-left:12px;}
+.dd8 .two .same ul li{ width:492px; height:25px; line-height:25px; padding-left:4px;}
+.dd8 .two .same ul li a{ color:#000;}	
+.dd8 .two .same ul li:hover{background-color:#ece2cd; }
+.on8:hover .dd8{display:inline-block; }
+
+/*使display的内容不被遮住的方法：position:absolute;z-index:999;*/
+
+
+
+.ad{ width:1349px; height:559px; margin:0 auto; background:url(../images/img_cont/h12.png) no-repeat center; position:relative;}
+.ad .conttip{ width:430px; height:57px; position:absolute; top:502px; left:466px;}
+.ad .conttip .one{ height:57px; line-height:57px;  float:left; color:#e9c372;}
+.ad .conttip .two{ width:106px; height:32px; line-height:32px; float:left; background-color:#fff; margin:15px 0 0 10px; padding-left:6px; font-size:10px; color:#666;}
+.ad .conttip .three{ width:115px; height:32px; line-height:32px; float:left; background-color:#e9c372; margin:15px 0 0 10px; text-align:center;}
+
+
+.word{ width:1097px; height:60px; margin:0 auto; font-size:22px; line-height:60px;}
+
+.content{  width:1097px; height:636px; margin:0 auto;}
+.content .up1 .same{ width:248px; height:302px; float:left; margin-right:29px; cursor:pointer; border-bottom:6px solid #dddddd;  background-color:#f6f6f6;}
+.content .up1 .same .second{width:232px; height:54px; padding:19px 8px 7px 8px;}
+.content .up1 .same .second p{ font-size:16px; }
+.content .up1 .same .second img{ float:right;}
+.content .up1 .same:hover{ background-color:#e4e4e4; border-color:#e9c372;}
+
+.content .down1 .same{ width:248px; height:302px; float:left; margin-right:29px; cursor:pointer;  border-bottom:6px solid #dddddd;  background-color:#f6f6f6; margin-top:20px;}
+.content .down1 .same .second{width:232px; height:54px; padding:19px 8px 7px 8px;}
+.content .down1 .same .second p{ font-size:16px; }
+.content .down1 .same .second img{ float:right;}
+.content .down1 .same:hover{ background-color:#e4e4e4; border-color:#e9c372;}
+
+.footer{ width:1349px; height:320px; margin:0 auto; background-color:#191919; margin-top:20px; }
+.footer .left{ float:left; width:520px;  height:320px; margin-right:58px; margin-left:126px; }
+.footer .left .one{ width:520px; height:24px; font-size:16px; border-bottom:1px solid #555555; padding-top:22px; color:#fff;}
+.footer .left .two{ width:520px; height:224px;}
+.footer .left .two ul{ float:left; width:260px;}
+.footer .left .two ul li{ margin-top:6px;}
+.footer .left .two ul li a{ color:#cccccc;}
+.footer .left .two ul li a:hover{  color:#9D4F00; text-decoration:underline;}
+.footer .left .three{ width:520px; height:50px; font-size:10px; color:#cccccc;}
+.footer .left .three a{ color:#cccccc; margin-left:2px;  font-size:10px;}
+.footer .left .three a:hover{  color:#e7c77c; text-decoration:underline;}
+
+.footer .center{ float:left; width:232px;  height:320px; margin-right:58px;}
+.footer .center .one{ width:232px; height:24px; font-size:16px; border-bottom:1px solid #555555; padding-top:22px; color:#fff;}
+.footer .center .two{ width:232px; height:106px;}
+.footer .center .two ul li{ margin-top:6px; width:232px; height:22px;}
+.footer .center .two ul li img{ float:left;}
+.footer .center .two ul li span{ float:left; margin-left:4px;}
+
+.footer .center .two ul li a{ color:#cccccc;}
+.footer .center .two ul li a span:hover{  color:#e7c77c; text-decoration:underline;}
+.footer .center .three{ width:232px; height:28px;}
+.footer .center .three ul li{ margin-top:6px; width:232px; height:22px;}
+.footer .center .three ul li a{ color:#cccccc; font-size:14px;}
+.footer .center .three ul li a:hover{ color:#e7c77c; text-decoration:underline;}
+
+.footer .right{ float:left; width:232px;  height:320px;}
+.footer .right .one{ width:232px; height:24px; font-size:16px; border-bottom:1px solid #555555; padding-top:22px; color:#fff;}
+.footer .right .two{ width:232px; height:28px;}
+.footer .right .two ul li{ margin-top:6px; width:232px; height:22px;}
+.footer .right .two ul li a{ color:#e7c77c; font-size:14px;}
+.footer .right .two ul li a:hover{ text-decoration:underline;}
+.footer .right .three{ width:232px; height:28px;}
+.footer .right .three ul li{ margin-top:6px; width:232px; height:22px;}
+.footer .right .three ul li a{ color:#cccccc; font-size:14px;}
+.footer .right .three ul li a:hover{ color:#e7c77c; text-decoration:underline;}
+
+
+
+
+
+
+
+
+
