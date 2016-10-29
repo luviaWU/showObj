@@ -1,0 +1,64 @@
+*{
+		margin:0px;
+		padding:0px;
+	}
+		.bigDiv,.singleTree{
+			height: 800px;
+		}
+		.bigDiv h1,.singleTree{
+			text-align: center
+		}
+		.bigDiv .bg{
+			width: 1408px;
+			display: block;	
+			height: 500px;
+			margin:0 auto;
+			margin-top:20px;
+			background: url(../icons/icon-07.png) no-repeat;
+			background-size: 100% 100%;
+			
+		}
+		.bg .tudi{
+			position: relative;
+			top:170px;
+			left:10px;
+		}
+
+		/*单个苹果树页面样式*/
+		.singleTree{
+			display: none
+		}
+		.singleTree .bg1{
+			width: 1408px;
+			height: 500px;
+			margin:0 auto;
+			margin-top:20px;
+		}
+		.singleTree .bg1 .appleTree{
+			width: 1000px;
+			height: 500px;
+			background: url(../icons/icon-03.png) no-repeat;
+			background-size: 100% 100%;
+			float: left
+		}
+		.singleTree .bg1 .appleTree .bigTree{
+			margin-top:20px;
+			width:60%;
+			height: 95%
+		}
+		.rightTable{
+			float: left;
+			border-collapse: collapse;
+			margin:70px 0 0 80px;
+			display: none
+		}
+		.rightTable tr td{
+			width: 140px;
+			height: 35px;
+			border:1px solid black;
+		}
+		.rightTable tr td.gray{
+			background-color: gray;
+			border-bottom:0px;
+			border-top:0px;
+		}

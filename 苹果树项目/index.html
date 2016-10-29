@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>苹果树页面</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/position.js"></script>
+	<script type="text/javascript">
+		window.onload=function(){
+			//树林页面
+			var bg=document.getElementById("bg");
+			var bigDiv=document.getElementById("bigDiv");
+			var singleTree=document.getElementById("singleTree");
+
+			for(var i=0;i<=32;i++){
+				//1.创建img标签
+				var img=document.createElement("img");
+				//2.给所有img标签设置src属性(属性相同，为同一张图片)
+				img.src="icons/icon-09.png";
+				img.title="张三"+(i+1);
+				//3.将所有图片添加到土地页面
+				bg.appendChild(img);
+				//4.给所有苹果设置定位属性(种苹果)
+				img.style.position="relative";
+				
+					//每一个苹果树的top以及left都不相同，去根据数组下标进行获取
+				var TreeLeft = treesPosition[i].left;
+       			var TreeTop = treesPosition[i].top;
+				img.style.left = TreeLeft;
+       			img.style.top = TreeTop;
+       			//5.给每一棵树木绑定事件
+       			img.onclick=function(){
+       				//将隐藏的树木进行显示，并将当前页面进行隐藏
+       				bigDiv.style.display="none";
+       				singleTree.style.display="block";
+       				//window.open("apple.html");
+       			}
+			}
+			//单个苹果树页面
+			//创建苹果标签，三种颜色的苹果创建原理相同
+			var appleBg=document.getElementById("appleTree");
+			var rightTable=document.getElementById("rightTable");
+			//红色苹果
+			for(var a=0;a<=4;a++){
+				var redApple=document.createElement("img");
+				redApple.src="icons/icon-04.png";
+				redApple.title="体能测试"+(a+1);
+				appleBg.appendChild(redApple);
+				//设置定位
+				redApple.style.position="relative";
+				var redLeft=redAppleArr[a].left;
+				var redTop=redAppleArr[a].top;
+				redApple.style.top=redTop;
+				redApple.style.left=redLeft;
+				redApple.onclick=function(){
+					rightTable.style.display="block";
+				}
+			}
+			//黄色苹果
+				for(var b=0;b<=4;b++){
+				var yellowApple=document.createElement("img");
+				yellowApple.src="icons/icon-06.png";
+				yellowApple.title="艺术素养"+(b+1);
+				appleBg.appendChild(yellowApple);
+				//设置定位
+				yellowApple.style.position="relative";
+				var yellowLeft=yellowAppleArr[b].left;
+				var yellowTop=yellowAppleArr[b].top;
+				yellowApple.style.top=yellowTop;
+				yellowApple.style.left=yellowLeft;
+				yellowApple.onclick=function(){
+					rightTable.style.display="block";
+				}
+			}
+
+			//绿色苹果
+				for(var c=0;c<=4;c++){
+				var greenApple=document.createElement("img");
+				greenApple.src="icons/icon-05.png";
+				greenApple.title="社会实践"+(c+1);
+				appleBg.appendChild(greenApple);
+				//设置定位
+				greenApple.style.position="relative";
+				var greenLeft=greenAppleArr[c].left;
+				var greenTop=greenAppleArr[c].top;
+				greenApple.style.top=greenTop;
+				greenApple.style.left=greenLeft;
+				greenApple.onclick=function(){
+					rightTable.style.display="block";
+				}
+			}
+			
+		}
+	</script>
+</head>
+<body>
+	<div class="bigDiv" id="bigDiv">
+		<h1>学生个性网络成长平台</h1>
+		<span class="bg" id="bg">
+			<img src="icons/tudi.png" class="tudi">
+		</span>
+	</div>
+	<!--单个苹果树页面-->
+	<div class="singleTree" id="singleTree">
+		<h1>学生个性网络平台卡通模式</h1>
+		<div class="bg1" id="bg1">
+			<div class="appleTree" id="appleTree">
+				<img src="icons/icon-02.png" class="bigTree">
+			</div>
+				<table class="rightTable" id="rightTable">
+					<tr>
+						<td class="gray">姓名</td>
+						<td>张三</td>
+					</tr>
+					<tr>
+						<td class="gray">实践名称</td>
+						<td>体能测试</td>
+					</tr>
+					<tr>
+						<td class="gray">活动名称</td>
+						<td>肺活量</td>
+					</tr>
+					<tr>
+						<td class="gray">成绩</td>
+						<td>88</td>
+					</tr>
+					<tr>
+						<td class="gray">得分</td>
+						<td>88</td>
+					</tr>
+					<tr>
+						<td class="gray">评价等级</td>
+						<td>A</td>
+					</tr>
+				</table>
+			</div>
+	</div>
+</body>
+</html>
