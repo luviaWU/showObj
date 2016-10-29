@@ -1,0 +1,130 @@
+/* CSS Document */
+body{  background-color:#DFDFDF;}
+.header{ width:1349px; height:32px; margin:0 auto; background-color:#562C2C;}
+.header ul{ float:right; margin-right:90px;}
+.header ul li{ float:left; height:32px; line-height:32px; color:#FFF;}
+.header ul li a{  font-size:15px; margin:0 10px; color:#FFF;}
+
+.head{ width:1349px; height:212px; margin:0 auto; background-color:#f3fbcc; }
+.head .word{ font-size:32px; float:left; margin:60px 0 0 80px; font-family:"幼圆"}
+.head .bg1{ float:right; margin-top:36px;}
+.head .top{ width:530px; height:40px; float:right;margin-top:146px;}
+/*----------------------------------------hover-1-----------------------------------------*/
+.head .top .one1{ margin-right:14px; float:left; background-color:#cb9c4c;  padding: 6px 10px; border-radius:5px;  position:relative;}
+.head .top .one1 a{ font-size:18px; color:#FFF;}
+.head .top .one1:hover{ background-color:#2D2D00; }
+.inner1{  display:none; width:580px; height:300px; background-color:#FFC; border:3px solid #800000; border-radius:20px; position:absolute;z-index:999; top:68px; left:-10px; background:#FFC url(../images/wenhua2.jpg) no-repeat center;}
+.inner1 .left1{ float:left; height:260px; width:300px; border-right:2px solid #FCC; margin-top:22px;}
+.inner1 .left1 ul li{ color:#000; height:30px; margin:20px 0 0 20px; font-size:16px;}
+.inner1 .left1 ul li input{ width:150px; height:28px; margin-left:10px; border:2px solid #800000; border-radius:5px;}
+.inner1 .left1 ul span input{ width:80px; height:28px; margin:40px 0 0 48px;  border:3px solid #373700; border-radius:5px; background-color:#373700; color:#fff; font-size:16px;}
+.inner1 .right1{ float:right; height:260px; width:260px; color:#525252; margin-top:36px;}
+.inner1 .right1 ul li{ margin-bottom:14px; width:240px; cursor:pointer;}
+.inner1 .right1 ul li p{ color:#D20000; text-align:center; font-size:11px; cursor:pointer;}
+
+.head .top .one1:hover .inner1{ display:inline-block; }
+/*----------------------------------------hover-2--------------------------------------*/
+.head .top .one2{ margin-right:14px; float:left; background-color:#cb9c4c; padding: 6px 10px; border-radius:5px;  position:relative;}
+.head .top .one2 a{ font-size:18px; color:#FFF;}
+.head .top .one2:hover{ background-color:#2D2D00; color:#fff;}
+.inner2{  display:none; width:500px; height:300px; border:3px solid #800000; border-radius:20px; position:absolute;z-index:999; top:68px; left:-10px; padding:20px; background:#FFC url(../images/wenhua2.jpg) no-repeat center;}
+.inner2 .left2{ width:360px; height:400px; float:left;}
+.inner2 .left2 ul li{ height:40px; width:340px;margin-top:16px; border-bottom:1px solid #373700;}
+.inner2 .left2 ul li img{ float:left; width:36px; height:30px;}
+.inner2 .left2 ul li p{ float:left; color:#000; width:280px; margin-left:10px;  height:40px; line-height:40px;}
+.inner2 .right2{ float:left; width:100px; height:200px;}
+.inner2 .right2 img{ margin-top:50px;}
+
+.head .top .one2:hover .inner2{ display:inline-block; }
+/*----------------------------------------hover-3----------------------------------------*/
+.head .top .one3{ margin-right:14px; float:left; background-color:#cb9c4c; padding: 6px 10px; border-radius:5px;  position:relative;}
+.head .top .one3 a{ font-size:18px; color:#FFF;}
+.head .top .one3:hover{ background-color:#2D2D00; color:#fff;}
+.inner3{  display:none; width:600px; height:400px; border:3px solid #800000; border-radius:20px; position:absolute;z-index:999; top:68px; left:-100px; background:#FFC url(../images/wenhua2.jpg) no-repeat center;}
+.inner3 .left3{ color:#333; margin:30px;}
+.inner3 .left3 ul li{ margin-bottom:5px; font-size:14px; cursor:pointer;}
+.inner3 .left3 ul li span{ color:#F00; font-size:16px;}
+.inner3 .left3 ul li b{ color:#400000; font-size:16px; font-weight:bold;}
+
+.head .top .one3:hover .inner3{ display:inline-block; }
+/*----------------------------------------hover-4----------------------------------------*/
+.head .top .one4{ margin-right:14px; float:left; background-color:#cb9c4c;  padding: 6px 10px; border-radius:5px;  position:relative;}
+.head .top .one4 a{ font-size:18px; color:#FFF;}
+.head .top .one4:hover{ background-color:#2D2D00; }
+.inner4{  display:none; width:580px; height:300px; border:3px solid #800000; border-radius:20px; position:absolute;z-index:999; top:68px; left:-100px; background:#FFC url(../images/wenhua2.jpg) no-repeat center;}
+.inner4 .left4{ float:left; height:260px; width:300px; border-right:2px solid #FCC; margin-top:22px;}
+.inner4 .left4 ul li{ color:#000; height:30px; margin:20px 0 0 20px; font-size:16px;}
+.inner4 .left4 ul li input{ width:150px; height:28px; margin-left:10px; border:2px solid #800000; border-radius:5px;}
+.inner4 .left4 ul span input{ width:80px; height:28px; margin:40px 0 0 48px;  border:3px solid #373700; border-radius:5px; background-color:#373700; color:#fff; font-size:16px;}
+.inner4 .right4{ float:right; height:260px; width:260px; color:#525252; margin-top:36px;}
+.inner4 .right4 ul li{ margin-bottom:14px; width:240px; cursor:pointer;}
+.inner4 .right4 ul li p{ color:#D20000; text-align:center; font-size:11px; cursor:pointer;}
+
+.head .top .one4:hover .inner4{ display:inline-block; }
+/*----------------------------------------hover-5----------------------------------------*/
+.head .top .one5{ margin-right:14px; float:left; background-color:#cb9c4c; padding:6px 10px; border-radius:5px;  position:relative;}
+.head .top .one5 a{ font-size:18px; color:#FFF;}
+.head .top .one5:hover{ background-color:#2D2D00; color:#fff;}
+.inner5{  display:none; width:500px; height:300px; border:3px solid #800000; border-radius:20px; position:absolute;z-index:999; top:68px; left:-190px; background:#FFC url(../images/wenhua2.jpg) no-repeat center;}
+.inner5 ul li { width:480px; height:58px; margin:10px 20px;}
+.inner5 ul li img{ float:left;}
+.inner5 ul li span{ float:left; width:420px; color:#000;}
+
+.head .top .one5:hover .inner5{ display:inline-block; }
+/*----------------------------------------hover：end-----------------------------------------*/
+
+
+
+
+.head .logo{ float:left; margin:60px 0 0 90px;}
+
+.light{ width:1349px; height:28px; margin:0 auto;}
+
+.content{ width:1200px; height:1000px; margin:10px auto 0; background-color:#fff; border-top:2px solid #cb9c4c;  border-bottom:2px solid #cb9c4c;}
+
+.content .aboutme{ width:1198px; height:300px; border-left:2px solid #cb9c4c;  border-right:2px solid #cb9c4c; border-bottom:2px solid #cb9c4c;}
+.content .aboutme .same1{ width:370px; height:260px; float:left; margin:20px 20px 10px 20px;  background-color:#CCC;}
+.content .aboutme .same2{ width:370px; height:260px; float:left; margin:20px 20px 10px 0;  background-color:#CCC;} 
+.content .aboutme .same3{ width:370px; height:260px; float:left; margin:20px 0 10px 0;  background-color:#CCC;} 
+
+.content .runword{ width:600px; height:50px; margin:10px auto; }
+.content .runword marquee{ width:600px; height:50px; line-height:50px; border:1px solid #2D2D00; border-radius:10px; background-color:#2D2D00; font-size:18px; direction:left; color:#fff; font-weight:bold;}
+
+
+.content .sale1{ width:1200px; margin:0 auto;}
+.content .sale1 ul li{ width:310px; height:230px; float:right; background-color:#CC6; margin:20px 30px 10px 0;}
+.content .sale1 ul li img{ width:310px; height:230px;}
+.content .sale2 ul li{ width:270px; height:180px; float:right; background-color:#CC6; margin:40px 30px 10px 0;}
+.content .sale2 ul li img{ width:270px; height:180px;}
+
+.footer{ width:1349px; height:200px; margin:0 auto; background-color:#361B1B; color:#FFF;}
+.footer .one{ width:242px; height:160px; float:left; margin:30px 0 0 50px;}
+.footer .one ul li{ width:100px; height:40px; line-height:40px; margin-left:56px; font-size:14px; border-left:1px solid #fff; border-bottom:1px solid #fff; text-align:center;}
+.footer .one ul .top{ width:242px; width:242px; height:46px; margin-left:10px; border:none;}
+.footer .one ul li img{ float:left; height:46px; width:46px;}
+.footer .one ul li p{ float:left; font-size:18px; height:40px; line-height:40px;}
+.footer .two{ width:242px; height:160px; float:left; margin:30px 0 0 10px;}
+.footer .two ul li{ width:100px; height:40px; line-height:40px; margin-left:56px; font-size:14px; border-left:1px solid #fff; border-bottom:1px solid #fff; text-align:center;}
+.footer .two ul .top{ width:242px; width:242px; height:46px; margin-left:10px; border:none;}
+.footer .two ul li img{ float:left; height:46px; width:46px;}
+.footer .two ul li p{ float:left; font-size:18px; height:40px; line-height:40px;}
+.footer .three{ width:242px; height:160px; float:left; margin:30px 0 0 10px;}
+.footer .three ul li{ width:100px; height:40px; line-height:40px; margin-left:56px; font-size:14px; border-left:1px solid #fff; border-bottom:1px solid #fff; text-align:center;}
+.footer .three ul .top{ width:242px; width:242px; height:46px; margin-left:10px; border:none;}
+.footer .three ul li img{ float:left; height:46px; width:46px;}
+.footer .three ul li p{ float:left; font-size:18px; height:40px; line-height:40px;}
+.footer .four{ width:242px; height:160px; float:left; margin:30px 0 0 10px;}
+.footer .four ul li{ width:100px; height:40px; line-height:40px; margin-left:56px; font-size:14px; border-left:1px solid #fff; border-bottom:1px solid #fff; text-align:center;}
+.footer .four ul .top{ width:242px; width:242px; height:46px; margin-left:10px; border:none;}
+.footer .four ul li img{ float:left; height:46px; width:46px;}
+.footer .four ul li p{ float:left; font-size:18px; height:40px; line-height:40px;}
+.footer .five{ width:242px; height:160px; float:left; margin:30px 0 0 10px;}
+.footer .five ul li{ width:100px; height:40px; line-height:40px; margin-left:56px; font-size:14px; border-left:1px solid #fff; border-bottom:1px solid #fff; text-align:center;}
+.footer .five ul .top{ width:242px; width:242px; height:46px; margin-left:10px; border:none;}
+.footer .five ul li img{ float:left; height:46px; width:46px;}
+.footer .five ul li p{ float:left; font-size:18px; height:40px; line-height:40px;}
+
+.copyright{ width:1349px; height:80px; margin:0 auto; background-color:#361B1B; padding-top:70px; position:relative;}
+.copyright ul li{ width:1349px; height:30px; color:#fff; font-size:14px;text-align:center;}
+.copyright ul img{ position:absolute; top:10px; left:90px;}
+.copyright ul p{ color:#fff; font-size:14px; position:absolute; left:60px; top:120px;}

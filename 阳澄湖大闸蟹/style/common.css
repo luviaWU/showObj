@@ -1,0 +1,8 @@
+/* CSS Document */
+
+* { margin:0; padding:0; font-size:12px; font-family:"幼圆"}
+img { border:none; display:block;}/*在图片外面加a标签，在ie浏览器上会出现边框，所以要加border:none;*/
+h1,h2,h3 { font-weight:normal;}
+a { text-decoration:none; color:#000;}
+
+li { list-style:none;}
